@@ -6,7 +6,7 @@ def split(word):
 charset = split(string.ascii_letters + string.digits)
 
 def random_character():
-    random_char = charset[random.randint(0,len(charset))]
+    random_char = charset[random.randint(0,55)]
     return random_char
 password = ""
 i = 0
